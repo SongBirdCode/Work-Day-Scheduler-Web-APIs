@@ -1,4 +1,4 @@
-# Work-Day-Scheduler-Web-APIs
+# A Unique Work Day Scheduler
 
 ## Description & Goal
 
