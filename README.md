@@ -19,10 +19,12 @@ Here are images to show the resulting Work Day Scheduler followed by deployed we
 
 <img src="Assets/result2.png">
 
-Deployed Website: 
 
-Repository Website: 
+Deployed Website: https://songbirdcode.github.io/Work-Day-Scheduler-Web-APIs-MOD5/
 
+Repository Website: https://github.com/SongBirdCode/Work-Day-Scheduler-Web-APIs-MOD5
+
+An executed UI friendly, simple work day scheduler with functions to add task items, see Past, Present and future items insync with current day/time requirements. 
 
 ## Usage
 
@@ -50,3 +52,5 @@ No Badges for this project.
 HTML, CSS, JQuery, Bootstrap all utilized within UI
 
 ## Tests
+
+Multiple Checks between VS Code, In browser, and Github, including functionality post deployment of website have been taken. 
