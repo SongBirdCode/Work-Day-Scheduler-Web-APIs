@@ -1,59 +1,97 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 50;
+  background-color: #e6e9eb;
   font-size: 16px;
+  line-height: 1;
+}
+
+.container {
+  max-width: 1024px;
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
+  color: rgb(82, 82, 82);
+  border-left: 1px solid rgb(82, 82, 82);
   padding: 10px;
+  letter-spacing: 1px;
+}
+
+.jumbotron {
+  background: linear-gradient(to right, #292828, #d509a9);
+  text-align: center;
+  color: white;
+  border-radius: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  border-bottom: 10px solid rgb(82, 82, 82);
+}
+
+#clearFieldsBtn {
+  margin-top: 10px;
 }
 
 .description {
   white-space: pre-wrap;
+  font-weight: 600;
 }
 
 .time-block {
-  border-radius: 15px;
+  text-align: center;
 }
 
 .row {
+  white-space: pre-wrap;
+  height: 80px;
   border-top: 1px solid white;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #f2cc4d;
+  color: rgb(82, 82, 82);
+  padding-top: 27px;
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #a1e0ea;
+  border-radius: 15px;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: #ff8aa5;
+  border-radius: 15px;
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: #a0f0d9;
+  border-radius: 15px;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(82, 82, 82);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #0984e3;
   color: white;
 }
 
 .saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  font-size: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.white-text {
+  color: white;
 }
